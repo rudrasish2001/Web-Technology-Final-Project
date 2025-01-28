@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            color: white;
+
+        }
+
+        .Example2 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+            
+        }
+
+        .example {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+
+        }
+
+        .example3 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+
+        .example5 {
+            border: 2px solid rgb(11, 216, 90);
+           background-color: black ;
+           width: 35%;
+            border-radius: 10px;
+        }
+
+        .program {
+            color: white;
+        }
+
+        .example6 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="para">
+            <h1>Links:</h1>
+            <p>
+                The HTML &lt;a&gt; tag defines a hyperlink.
+                href : The href attribute is used to specify
+                the destination address of the link used.
+                Text link : The text link
+                is the visible part of the link.
+            </p>
+            <p>
+                Example:Let's try following example which links http://www.group20.com at your page −<br>
+            <p class="example">&lt;!DOCTYPE html&gt;<br>
+                &lt;<code>html</code>&gt;<br>
+
+                &lt;<code>head</code>&gt;<br>
+                &lt;<code>title</code>&gt;Hyperlink Example&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+
+                &lt;body&gt;<br>
+                &lt;p&gt;Click following link&lt;/p&gt;<br>
+                &lt;a href = "https://www.group20.com"&gt;Group 20&lt;/a&gt;<br>
+                &lt;/body&gt;<br>
+
+                &lt;/html&gt;</p><br>
+            <br>Output: <br>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>Hyperlink Example</title>
+            </head>
+
+            <body>
+                <p>Click following link</p>
+                <a href="https://www.group20.com">Group 20</a>
+            </body>
+
+            </html>
+            </p>
+            <p>
+                By default, links will appear as follows in all browsers:
+            <ul>
+                <li>An unvisited link is underlined and blue</li>
+                <li>visited link is underlined and purple</li>
+                <li>An active link is underlined and red</li>
+            </ul>
+            </p>
+        </div>
+        <div class="para2">
+            <h2>The Target Attribute</h2>
+            <p>
+                By default, the linked page will be displayed in the current browser window. To change this, you must
+                specify another target for the link. <br>
+                The target attribute specifies where to open the linked document. <br>
+                The target attribute can have one of the following values: <br>
+            <ul>
+                <li>_self - Default. Opens the document in the same window/tab as it was clicked</li>
+                <li>_blank - Opens the document in a new window or tab</li>
+                <li>_parent - Opens the document in the parent frame</li>
+                <li>_top - Opens the document in the full body of the window</li>
+                <li>targetframe - Opens the linked document in a named targetframe</li>
+            </ul>
+            </p>
+
+            <br>Example:
+            Try following example to understand basic difference in few options given for target attribute.
+            <p class="Example2"><br>&lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;Hyperlink Example&lt;/title&gt; <br>
+                &lt;base href = "https://www.group20.com/"&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;p&gt;Click any of the following links&lt;/p&gt; <br>
+                &lt;a href = "/html/index.htm" target = "_blank">Opens in New&lt;/a&gt; <br>
+                &lt;a href = "/html/index.htm" target = "_self">Opens in Self&lt;/a&gt; <br>
+                &lt;a href = "/html/index.htm" target = "_parent">Opens inParent&lt;/a&gt; <br>
+                &lt;a href = "/html/index.htm" target = "_top">Opens in Body&lt;/a&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt;</p> <br>
+            <br>Output: <br>
+            <p>
+                <!DOCTYPE html>
+                <html>
+
+                <head>
+                    <title>Hyperlink Example</title>
+                    <base href="https://www.group20.com/">
+                </head>
+
+                <body>
+                    <p>Click any of the following links</p>
+                    <a href="/html/index.htm" target="_blank">Opens in New</a> |
+                    <a href="/html/index.htm" target="_self">Opens in Self</a> |
+                    <a href="/html/index.htm" target="_parent">Opens inParent</a>|
+                    <a href="/html/index.htm" target="_top">Opens in Body</a>
+                </body>
+
+                </html>
+            </p>
+        </div>
+    </header>
+</body>
+
+<body>
+    <header class="header2">
+        <div class="para3">
+            <h2>Use of Base Path</h2>
+            <p>
+                When you link HTML documents related to the same website, it is not required to give a complete URL for
+                every link. You can get rid of it if you use &lt;base&gt; tag in your HTML document header. This tag is
+                used to give a base path for all the links. So your browser will concatenate given relative path to this
+                base path and will make a complete URL. <br>
+            <h2>Example:</h2>
+            Following example makes use of
+            <base> tag to specify base URL and later we can use relative path to all the links instead of giving
+            complete URL for every link.
+            </p>
+            <p class="example3">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;Hyperlink Example&lt;/title&gt; <br>
+                &lt;base href="https://www.group20.com/"&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;p&gt;Click following link&lt;/p&gt; <br>
+                &lt;a href="/html/index.htm" target="_blank"&gt;HTML Tutorial&lt;/a&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt;
+            <div>
+
+                <br>Output: <br>
+                <!DOCTYPE html>
+                <html>
+
+                <head>
+                    <title>Hyperlink Example</title>
+                    <base href="https://www.group20.com/">
+                </head>
+
+                <body>
+                    <p>Click following link</p>
+                    <a href="/html/index.htm" target="_blank">HTML Tutorial</a>
+                </body>
+
+                </html>
+            </div>
+            </p>
+        </div>
+        <div class="para4">
+            <p class="example4">
+            <h2>Linking to a Page Section</h2>
+            You can create a link to a particular section of a given webpage by using name attribute. This is a two-step
+            process. <br>
+            First create a link to the place where you want to reach with-in a webpage and name it using &lt;a...&gt;
+            tag as follows − <br>
+            &lt;h1&gt;HTML Text Links &lt;a name = "top"&gt;&lt;/a&gt;&lt;/h1&gt;
+            Second step is to create a hyperlink to link the document and place where you want to reach − <br>
+            &lt;a href = "/html/html_text_links.htm#top">Go to the Top&lt;/a&gt;
+            This will produce following link, where you can click on the link generated Go to the Top to reach to the
+            top of the HTML Text Link tutorial. <br>
+            <a href="/html/html_text_links.htm#top">Go to the Top</a>
+            </p>
+            <h2>Setting Link Colors</h2>
+            You can set colors of your links, active links and visited links using link, alink and vlink attributes of
+            &lt;body&gt; tag.
+            <h2>Example:</h2>
+            Save the following in test.htm and open it in any web browser to see how link, alink and vlink attributes
+            work.
+            <p class="example5">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;Hyperlink Example&lt;/title&gt; <br>
+                &lt;base href="https://www.group20.com/"&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body alink="#54A250" link="#040404" vlink="#F40633"&gt; <br>
+                &lt;p&gt;Click following link&lt;/p&gt; <br>
+                &lt;a href="/html/index.htm" target="_blank"&gt;HTML Tutorial&lt;/a&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br></p>
+            <h2>Output:</h2>
+            Click Following link <br>
+            <br> HTML TUTORIAL
+            <!-- <p class="program"> <!DOCTYPE html>
+           <html>
+
+            <head>
+                <title>Hyperlink Example</title>
+                <base href="https://www.group20.com/">
+            </head>
+
+            <body alink="#54A250" link="#040404" vlink="#F40633">
+                <p>Click following link</p>
+                <a href="/html/index.htm" target="_blank">HTML Tutorial</a>
+            </body>
+
+            </html>
+            </p> -->
+        </div>
+        <div class="para5">
+            <h2>Download Links</h2> <br>
+            <p class="example6">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;Hyperlink Example&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;a href="https://www.group20.com/page.pdf"&gt;Download PDF File&lt;/a&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            </p>
+            <br>Output: <br>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>Hyperlink Example</title>
+            </head>
+
+            <body>
+                <a href="https://www.group20.com/page.pdf">Download PDF File</a>
+            </body>
+
+            </html>
+        </div>
+        <div class="para6">
+            <h2>File Download Dialog Box</h2> <br>
+            Sometimes it is desired that you want to give an option where a user will click a link and it will pop up a
+            "File Download" box to the user instead of displaying actual content. This is very easy and can be achieved
+            using an HTTP header in your HTTP response. <br>
+            For example, if you want make a Filename file downloadable from a given link then its syntax will be as
+            follows.
+            <p class="example7">
+                #!/usr/bin/perl <br>
+
+                # Additional HTTP Header <br>
+                print "Content-Type:application/octet-stream; name = \"FileName\"\r\n"; <br>
+                print "Content-Disposition:attachment; filename = \"FileName\"\r\n\n"; <br>
+
+                # Open the target file and list down its content as follows <br>
+                open( FILE, "<FileName></FileName>" ); <br>
+                 while(read(FILE, $buffer, 100)) <br> { print("$buffer"); } </p>
+        </div>
+    </header>
+    <h2>Arpan kumar tripathy <br> 1906606 <br>Web Technology </h2>
+</body>
+
+</html>

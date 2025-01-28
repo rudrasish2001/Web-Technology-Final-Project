@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            color: white;
+
+        }
+
+        .Example2 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+
+        }
+
+        .example {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+
+        }
+
+        .example3 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+
+        .example5 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+
+        .program {
+            color: white;
+        }
+
+        .example6 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+
+        .example7 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+
+        .example8 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+
+        .example9 {
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+        .example10{
+            border: 2px solid rgb(11, 216, 90);
+            background-color: black;
+            width: 35%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="para">
+            <h1>Tables-(1906606)</h1>
+            Example:<br>
+            <p class="example">
+                <br> &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Tables&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 1, Column 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 1, Column 2&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 2, Column 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 2, Column 2&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            </p>
+            <br>Output: <br>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Tables</title>
+            </head>
+
+            <body>
+                <table border="1">
+                    <tr>
+                        <td>Row 1, Column 1</td>
+                        <td>Row 1, Column 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Row 2, Column 1</td>
+                        <td>Row 2, Column 2</td>
+                    </tr>
+                </table>
+
+            </body>
+
+            </html>
+        </div>
+        <div class="para2">
+            <h2>Table Heading</h2>
+            <p>
+                Table heading can be defined using &lt;th&gt; tag. This tag will be put to replace &lt;td&gt; tag, which
+                is used to represent actual data cell. Normally you will put your top row as table heading as shown
+                below, otherwise you can use &lt;th&gt; element in any row. Headings, which are defined in &lt;th&gt;
+                tag are centered and bold by default.
+            </p>
+
+            <br>Example:
+            <p class="Example2"><br>
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table Header&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th&gt;Name&lt;/th&gt; <br>
+                &lt;th&gt;Salary&lt;/th&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Ramesh Raman&lt;/td&gt; <br>
+                &lt;td&gt;5000&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+
+                &lt;tr&gt; <br>
+                &lt;td&gt;Shabbir Hussein&lt;/td&gt; <br>
+                &lt;td&gt;7000&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; </p> <br>
+            <br>Output: <br>
+            <p>
+                <!DOCTYPE html>
+                <html>
+
+                <head>
+                    <title>HTML Table Header</title>
+                </head>
+
+                <body>
+                    <table border="1">
+                        <tr>
+                            <th>Name</th>
+                            <th>Salary</th>
+                        </tr>
+                        <tr>
+                            <td>Ramesh Raman</td>
+                            <td>5000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Shabbir Hussein</td>
+                            <td>7000</td>
+                        </tr>
+                    </table>
+                </body>
+
+                </html>
+            </p>
+        </div>
+    </header>
+</body>
+
+<body>
+    <header class="header2">
+        <div class="para3">
+            <h2>Cellpadding and Cellspacing Attributes</h2>
+            <p>
+                There are two attributes called cellpadding and cellspacing which you will use to adjust the white space
+                in your table cells. The cellspacing attribute defines space between table cells, while cellpadding
+                represents the distance between cell borders and the content within a cell.
+
+            <h2>Example:</h2>
+            </p>
+            <p class="example3">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table Cellpadding&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" cellpadding="5" cellspacing="5"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th&gt;Name&lt;/th&gt; <br>
+                &lt;th&gt;Salary&lt;/th&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Ramesh Raman&lt;/td&gt; <br>
+                &lt;td&gt;5000&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Shabbir Hussein&lt;/td&gt; <br>
+                &lt;td&gt;7000&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            <div>
+
+                <br>Output: <br>
+                <!DOCTYPE html>
+                <html>
+
+                <head>
+                    <title>HTML Table Cellpadding</title>
+                </head>
+
+                <body>
+                    <table border="1" cellpadding="5" cellspacing="5">
+                        <tr>
+                            <th>Name</th>
+                            <th>Salary</th>
+                        </tr>
+                        <tr>
+                            <td>Ramesh Raman</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>Shabbir Hussein</td>
+                            <td>7000</td>
+                        </tr>
+                    </table>
+                </body>
+
+                </html>
+            </div>
+            </p>
+        </div>
+        <div class="para4">
+            <p class="example4">
+            <h2>Colspan and Rowspan Attributes</h2>
+            You will use colspan attribute if you want to merge two or more columns into a single column. Similar way
+            you will use rowspan if you want to merge two or more rows.
+            <p class="example5">
+                <br>
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table Colspan/Rowspan&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th&gt;Column 1&lt;/th&gt; <br>
+                &lt;th&gt;Column 2&lt;/th&gt; <br>
+                &lt;th&gt;Column 3&lt;/th&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td rowspan="2"&gt;Row 1 Cell 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 1 Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Row 1 Cell 3&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 2 Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Row 2 Cell 3&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td colspan="3"&gt;Row 3 Cell 1&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            <h2>Output:</h2>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Table Colspan/Rowspan</title>
+            </head>
+
+            <body>
+                <table border="1">
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Row 1 Cell 1</td>
+                        <td>Row 1 Cell 2</td>
+                        <td>Row 1 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Cell 2</td>
+                        <td>Row 2 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Row 3 Cell 1</td>
+                    </tr>
+                </table>
+            </body>
+
+            </html>
+            </p>
+        </div>
+        <div class="para5">
+            <h2>Tables Backgrounds</h2>
+            <p>You can set table background using one of the following two ways − <br>
+                1.bgcolor attribute − You can set background color for whole table or just for one cell. <br>
+                2.background attribute − You can set background image for whole table or just for one cell. <br>
+                You can also set border color also using bordercolor attribute.</p>
+            <p class="example6">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table Background&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" bordercolor="green" bgcolor="yellow"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th&gt;Column 1&lt;/th&gt; <br>
+                &lt;th&gt;Column 2&lt;/th&gt; <br>
+                &lt;th&gt;Column 3&lt;/th&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td rowspan="2"&gt;Row 1 Cell 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 1 Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Row 1 Cell 3&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 2 Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Row 2 Cell 3&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td colspan="3"&gt;Row 3 Cell 1&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt;
+            </p>
+            <h2>Output:</h2>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Table Background</title>
+            </head>
+
+            <body>
+                <table border="1" bordercolor="green" bgcolor="yellow">
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Row 1 Cell 1</td>
+                        <td>Row 1 Cell 2</td>
+                        <td>Row 1 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Cell 2</td>
+                        <td>Row 2 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Row 3 Cell 1</td>
+                    </tr>
+                </table>
+            </body>
+
+            </html>
+            <h2>Example to use Image as background:</h2>
+            <p class="example7"> &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table Background&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" bordercolor="green" background="/images/test.png"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th&gt;Column 1&lt;/th&gt; <br>
+                &lt;th&gt;Column 2&lt;/th&gt; <br>
+                &lt;th&gt;Column 3&lt;/th&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td rowspan="2"&gt;Row 1 Cell 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 1 Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Row 1 Cell 3&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 2 Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Row 2 Cell 3&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td colspan="3"&gt;Row 3 Cell 1&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            <h2>Output:</h2>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Table Background</title>
+            </head>
+
+            <body>
+                <table border="1" bordercolor="green" background="/images/test.png">
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                        <th>Column 3</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Row 1 Cell 1</td>
+                        <td>Row 1 Cell 2</td>
+                        <td>Row 1 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Cell 2</td>
+                        <td>Row 2 Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Row 3 Cell 1</td>
+                    </tr>
+                </table>
+            </body>
+
+            </html>
+        </div>
+        </p>
+        <div class="para6">
+            <h2>Table Height and Width</h2> <br>
+            You can set a table width and height using width and height attributes. You can specify table width or
+            height in terms of pixels or in terms of percentage of available screen area.
+            <h2>Example:</h2>
+            <p class="example7">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table Width/Height&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" width="400" height="150"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 1, Column 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 1, Column 2&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+
+                &lt;tr&gt; <br>
+                &lt;td&gt;Row 2, Column 1&lt;/td&gt; <br>
+                &lt;td&gt;Row 2, Column 2&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            </p>
+        </div>
+    </header>
+    <h2>Output: </h2>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>HTML Table Width/Height</title>
+    </head>
+
+    <body>
+        <table border="1" width="400" height="150">
+            <tr>
+                <td>Row 1, Column 1</td>
+                <td>Row 1, Column 2</td>
+            </tr>
+
+            <tr>
+                <td>Row 2, Column 1</td>
+                <td>Row 2, Column 2</td>
+            </tr>
+        </table>
+    </body>
+
+    </html>
+    <header class="header3">
+        <div class="para7">
+            <h2>Table Caption</h2>
+            The caption tag will serve as a title or explanation for the table and it shows up at the top of the table.
+            This tag is deprecated in newer version of HTML/XHTML.
+            <p class="example8">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title>HTML Table Caption&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" width="100%"&gt; <br>
+                &lt;caption>This is the caption&lt;/caption&gt; <br>
+
+                &lt;tr&gt; <br>
+                &lt;td>row 1, column 1&lt;/td&gt; <br>
+                &lt;td>row 1, columnn 2&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+
+                &lt;tr&gt; <br>
+                &lt;td&gt;row 2, column 1&lt;/td&gt; <br>
+                &lt;td&gt;row 2, columnn 2&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            </p>
+            <h2>Output:</h2>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Table Caption</title>
+            </head>
+
+            <body>
+                <table border="1" width="100%">
+                    <caption>This is the caption</caption>
+
+                    <tr>
+                        <td>row 1, column 1</td>
+                        <td>row 1, columnn 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>row 2, column 1</td>
+                        <td>row 2, columnn 2</td>
+                    </tr>
+                </table>
+            </body>
+
+            </html>
+            <h2>Table Header, Body, and Footer</h2>
+            Tables can be divided into three portions − a header, a body, and a foot. The head and foot are rather
+            similar to headers and footers in a word-processed document that remain the same for every page, while the
+            body is the main content holder of the table. <br>
+            The three elements for separating the head, body, and foot of a table are − <br>
+            1.&lt;thead&gt; − to create a separate table header. <br>
+            2.
+            &lt;tbody&gt; − to indicate the main body of the table. <br>
+            3.
+            &lt;tfoot&gt; − to create a separate table footer. <br>
+            A table may contain several &lt;tbody&gt; elements to indicate different pages or groups of data. But it is
+            notable that &lt;thead&gt; and
+            &lt;tfoot&gt; tags should appear before
+            &lt;tbody&gt;
+            <h2>Example:</h2>
+            <p class="example9">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" width="100%"&gt; <br>
+                &lt;thead&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td colspan="4"&gt;This is the head of the table&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/thead&gt; <br>
+
+                &lt;tfoot&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td colspan="4"&gt;This is the foot of the table&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/tfoot&gt; <br>
+
+                &lt;tbody&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Cell 1&lt;/td&gt; <br>
+                &lt;td&gt;Cell 2&lt;/td&gt; <br>
+                &lt;td&gt;Cell 3&lt;/td&gt; <br>
+                &lt;td&gt;Cell 4&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/tbody&gt; <br>
+
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            </p>
+            <h2>Output:</h2>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Table</title>
+            </head>
+
+            <body>
+                <table border="1" width="100%">
+                    <thead>
+                        <tr>
+                            <td colspan="4">This is the head of the table</td>
+                        </tr>
+                    </thead>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">This is the foot of the table</td>
+                        </tr>
+                    </tfoot>
+
+                    <tbody>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </body>
+
+            </html>
+            <h2>Nested Tables</h2>
+            You can use one table inside another table. Not only tables you can use almost all the tags inside table
+            data tag &lt;td&gt;.
+            <h2>Example:</h2>
+            Following is the example of using another table and other tags inside a table cell.
+            <p class="example10">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html&gt; <br>
+
+                &lt;head&gt; <br>
+                &lt;title&gt;HTML Table&lt;/title&gt; <br>
+                &lt;/head&gt; <br>
+
+                &lt;body&gt; <br>
+                &lt;table border="1" width="100%"&gt; <br>
+
+                &lt;tr&gt; <br>
+                &lt;td&gt; <br>
+                &lt;table border="1" width="100%"&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th>Name&lt;/th&gt; <br>
+                &lt;th&gt;Salary&lt;/th&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Ramesh Raman&lt;/td&gt; <br>
+                &lt;td&gt;5000&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;td&gt;Shabbir Hussein&lt;/td&gt; <br>
+                &lt;td&gt;7000&lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+                &lt;/table&gt; <br>
+                &lt;/td&gt; <br>
+                &lt;/tr&gt; <br>
+
+                &lt;/table&gt; <br>
+                &lt;/body&gt; <br>
+
+                &lt;/html&gt; <br>
+            </p>
+            <h2>Output:</h2>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>HTML Table</title>
+            </head>
+
+            <body>
+                <table border="1" width="100%">
+
+                    <tr>
+                        <td>
+                            <table border="1" width="100%">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Salary</th>
+                                </tr>
+                                <tr>
+                                    <td>Ramesh Raman</td>
+                                    <td>5000</td>
+                                </tr>
+                                <tr>
+                                    <td>Shabbir Hussein</td>
+                                    <td>7000</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                </table>
+            </body>
+
+            </html>
+        </div>
+    </header>
+</body>
+
+</html>

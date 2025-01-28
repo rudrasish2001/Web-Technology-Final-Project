@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <title>Intro</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <style>
+        *
+{
+    margin: 0;
+    padding: 0;
+}
+/*.project
+{
+    width:100%;
+    height: 80vh;
+    background-image: url(sky.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;    
+}*/
+
+.middle
+{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn
+{
+    position: relative;
+    display: block;
+    color:rgb(14, 10, 10);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid black;
+    padding: 14px 60px;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+.btn::before
+{
+    background: rgb(12, 12, 7);
+    color: white;
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+.btn:nth-child(even):hover
+{
+	background-color:black;
+	color:white;
+}
+.btn:nth-child(odd):hover
+{
+	background-color:black;
+	color:white;
+}
+
+.btn1::before
+{
+    color:black;
+    width: 100%;
+    height: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn1:hover::before
+{
+    color: black;
+    height: 380%;
+    
+}
+.btn2::before
+{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btn2:hover::before
+{
+   
+    height: 380%;
+}
+.highway
+{
+   height: 200px;
+   width: 500%; 
+   display: block;
+   background-image: url(road.jpg);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   background-repeat: repeat-x;
+   animation: highway 1s linear infinite;
+}
+@keyframes highway
+{
+    100%
+    {
+        transform:translateX(-3400px);
+    }
+}
+.city
+{
+   height: 153px;
+   width: 400%; 
+   display: flex;
+   background-image: url(city.png);
+   position: absolute;
+   bottom:200px;
+   left: 0;
+   right: 0;
+   display: block;
+   z-index: 1;
+   background-repeat: repeat-x;
+   animation: city 30s linear infinite;
+}
+@keyframes city
+{
+    100%
+    {
+        transform: translateX(-1400px);
+    }
+}
+.car
+{
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+.car img
+{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car
+{
+    100%
+    {
+        transform: translateY(-1px);
+    }
+    50%
+    {
+        transform: translateY(1px);
+    }
+    0%
+    {
+        transform: translateY(-1px);
+    }
+}
+.wheel
+{
+    left:50%;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+}
+.wheel img
+{
+    width: 72px;
+    height: 72px;
+    animation: wheel 0.25s linear infinite;
+}
+.back-wheel
+{
+    left:-165px;
+    position: absolute;
+}
+.front-wheel
+{
+    left:80px;
+    position: absolute;
+}
+@keyframes wheel
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+    </style>
+        <body>
+            
+            
+            <div class="middle">
+                <a href="HTML.html" class="btn btn1">HTML</a>
+                <a href="TAGS.html" class="btn btn2">Tags</a>
+            </div>
+            <div class="project"></div>
+                <div class="highway"></div>
+                <div class="city"></div>
+                <div class="car">
+                    <img src="car.png">
+                </div>      
+                <div class="wheel">
+                    <img src="wheel.png" class="back-wheel">
+                    <img src="wheel.png" class="front-wheel">
+                </div>    
+                
+
+        </body>
+
+
+
+
+</html>

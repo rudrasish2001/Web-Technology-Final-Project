@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNORDERED LIST</title>
+</head>
+<style>
+    *
+{
+	padding:10;
+	margin:0;
+}
+
+body
+{
+	margin-left:1%;
+	margin-bottom:5px;
+	font-family:FreeMono, monospace;
+	text-align:justify;
+    background-color: blanchedalmond;
+}
+header
+{
+	margin-top:30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h1
+{
+	font-family:'Courier New', monospace;
+	color:#ab2795;
+}
+header p
+{
+	font-family:URW Chancery L, cursive;
+	color:#9A63E3;
+  font-size: 20px;
+}
+.button a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(238, 27, 27);
+    text-decoration: none;
+    padding: 4px 6px;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+</style>
+<body style="background-color: blanchedalmond">
+    <header>
+      <br><br>
+    </header>
+    <br/>
+    <br/>
+    <br/>
+    <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;color: maroon;">UNORDERED HTML LIST:</h2>
+    <br/>
+    <p style="font-size: 20px;">An unordered list starts with the <code class="w3-codespan">&lt;ul&gt;</code> tag. Each list item starts with the 
+    <code class="w3-codespan">&lt;li&gt;</code> tag.</p>
+    <p style="font-size: 20px;">The list items will be marked with bullets (small black circles) by default:</p>
+    <div class="ulexample">
+        <br/>
+    <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: #ab2795;" >Example:</h3>
+    <div class="w3-code notranslate htmlHigh">
+    &lt;ul&gt;<br>
+    &nbsp;
+    &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>
+    &nbsp;
+    &lt;li&gt;Milk&lt;/li&gt;<br>
+    &lt;/ul&gt;
+    <br/>
+      <br/>
+    <p><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;"> OUTPUT:</h2></p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      <br/>
+
+    </div>
+    <table style="border: 1px;width: 100%;">
+        <tr>
+        <th style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: rgb(7, 66, 122);">VALUE</th>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        
+        <th style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;display: inline-block;color: rgb(100, 8, 131);">DESCRIPTION</th>
+        </tr>
+        <br/>
+        
+        <tr>
+        <td>disc</td>
+        &nbsp;
+        <td>Sets the list item marker to a bullet (default)</td>
+        </tr>
+        <tr>
+        <td>circle</td>
+        &nbsp;
+        <td>Sets the list item marker to a circle</td>
+        </tr>
+        <tr>
+        <td>square</td>
+        &nbsp;
+        <td>Sets the list item marker to a square</td>
+        </tr>
+        <tr>
+        <td>none</td>
+        &nbsp;
+        <td>The list items will not be marked</td>
+        </tr>
+        </table>
+        <br/>
+        <div class="disc-example">
+        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: #f30808;">Example - Disc:</h3>
+        <div class="disc">
+        &lt;ul style=&quot;list-style-type:disc;&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+        &nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+        </div>
+        <br/>
+        <p><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;"> OUTPUT:</h2></p>
+        <ul style="list-style-type:disc;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+        </div>
+        <br/>
+        
+        <div class="circle-example">
+        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: rgb(209, 126, 18);" >Example - Circle:</h3>
+        <div class="circle">
+        &lt;ul style=&quot;list-style-type:circle;&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+        &nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+        </div>
+        </div>
+        <br/>
+        <p><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;"> OUTPUT:</h2></p>
+        <ul style="list-style-type:circle;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+        <br/>
+        <div class="square-example">
+        <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: rgb(216, 14, 172);">Example - Square:</h3>
+        <div class="square">
+        &lt;ul style=&quot;list-style-type:square;&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+        &nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+        </div>
+        <br/>
+        <p><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;"> OUTPUT:</h2></p>
+        <ul style="list-style-type:square;">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+          <br/>
+          <div class="none">
+            <h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: rgb(216, 14, 172)">Example - None:</h3>
+            <div class="none-example">
+            &lt;ul style=&quot;list-style-type:none;&quot;&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>
+            &nbsp; &lt;li&gt;Tea&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+            </div>
+            <br/>
+            <p><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;"> OUTPUT:</h2></p>
+            <ul style="list-style-type:none;">
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+    <br/>
+    </div>
+    <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color: #ab2795;">NESTED HTML LISTS</h2>
+<p>Lists can be nested (list inside list):</p>
+<br/>
+<div class="nested-example">
+<h3 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 25px;color:blue;">Example:</h3>
+<div class="nested">
+&lt;ul&gt;<br>&nbsp; &lt;li&gt;Coffee&lt;/li&gt;<br>&nbsp; &lt;li&gt;Tea<br>
+&nbsp; &nbsp; &lt;ul&gt;<br>&nbsp;&nbsp;&nbsp; &nbsp; 
+&lt;li&gt;Black tea&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;li&gt;Green tea&lt;/li&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/ul&gt;<br>&nbsp; 
+&lt;/li&gt;<br>&nbsp; &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+<br/>
+<p><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;"> OUTPUT:</h2></p>
+<ul>
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+    
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <div class="button">
+        <button><a href="../WT-PROJECT.html">BACK TO HOME PAGE</a></button>
+    </div>
+</body>
+</html>

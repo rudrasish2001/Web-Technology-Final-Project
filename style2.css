@@ -1,0 +1,61 @@
+*
+{
+	padding:10;
+	margin:0;
+}
+body
+{
+	margin-left:1%;
+	margin-bottom:5px;
+	font-family:FreeMono, monospace;
+	text-align:justify;
+}
+header
+{
+	margin-top:5px;
+}
+header h1
+{
+	font-family:'Courier New', monospace;
+	color:#ab2795;
+}
+
+header p
+{
+	font-family:URW Chancery L, cursive;
+	color:#9A63E3;
+}
+main
+{
+	clear: both;
+}
+article
+{
+	width:99%;
+}
+table
+{
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	border:1px solid #ddd;
+}
+tr:nth-child(even)
+{
+	background-color:#f2f2f2;
+}
+th
+{
+	background-color:#3394D5;
+	color:white;
+}
+tr:nth-child(even):hover
+{
+	background-color:black;
+	color:white;
+}
+tr:nth-child(odd):hover
+{
+	background-color:black;
+	color:white;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links And Tables</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80') no-repeat;
+            width: 200px;
+            height: 1050px;
+            margin: 0px 70px 0px 0px;
+            padding: 0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Roboto Slab', serif;
+            color: white;
+        }
+
+        .left {
+
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 500spx;
+        }
+
+        .mid {
+            display: block;
+            width: 200%;
+            margin: 20px 220px;
+            position: relative;
+            left: 170px;
+            top: 15px;
+        }
+
+        .navbar {
+            display: inline-block;
+            position: relative;
+            left: 80px;
+        }
+
+        .navbar ul {
+            display: inline-block;
+            font-size: 30px;
+            position: relative;
+            left: -30px;
+        }
+
+        .navbar ul a {
+            color: white;
+            text-decoration: none;
+            padding: 24px 23px;
+        }
+
+        .navbar ul a:hover {
+            text-decoration: underline;
+            color: red;
+            cursor: pointer;
+        }
+
+        .fab {
+            position: relative;
+            color: white;
+            margin: 0px 8px;
+            left: 1100px;
+            top: -110px;
+        }
+
+        .copyright {
+            position: relative;
+            top: 800px;
+            left: 1040px;
+            color: black;
+        }
+
+        .paragraph {
+            position: relative;
+            display: block;
+            width: 300%;
+            margin: 0px 450px;
+            top: 720px;
+            color: white;
+            font-size: large;
+            left: -440px;
+            font-weight: bolder;
+
+        }
+
+        .bar {
+            position: relative;
+            left: 380px;
+            top: 30px;
+            width: 900px;
+            margin: 11px auto;
+            display: block;
+            padding: 6px;
+            font-weight: bolder;
+        }
+        .links h2{
+            width: 100%;
+            border: 2px solid rgb(9, 235, 122);
+            position: relative;
+            left: 20px;
+            top: -102px;
+            background-color: black;
+            border-radius: 20px;
+            margin: 11px auto;
+            padding: 9px;
+        }
+        .links p{
+            border: 2px solid rgb(9, 235, 122);
+            padding: 9px;
+            margin: 11px auto;
+            width: 200%;
+            position: relative;
+            left: 20px;
+            top: -102px;
+            background-color: black;
+            border-radius: 20px;
+        }
+        .tables h2{
+            width: 100%;
+            border: 2px solid rgb(9, 235, 122);
+            position: relative;
+            left: 990px;
+            top: -390px;
+            background-color: black;
+            border-radius: 20px;
+            margin: 11px auto;
+            padding: 9px;
+        }
+        .tables p{
+            border: 2px solid rgb(9, 235, 122);
+            padding: 9px;
+            margin: 11px auto;
+            width: 200%;
+            position: relative;
+            left: 800px;
+            top: -390px;
+            background-color: black;
+            border-radius: 20px;
+        }
+        .search:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="group20.png" alt="">
+        </div>
+        <div class="search">
+            <form action="noaction.php">
+                <div class="bar">
+                     Search: <input type="text" placeholder="Enter your search" size="70">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </form>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <ul><a href="links.html" target="_blank" class="active">Links</a></ul>
+                <ul><a href="tables.html" target="_blank">Tables</a></ul>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"
+                    style="font-size:30px;"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"
+                    style="font-size: 30px;"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"
+                    style="font-size: 30px;"></i></a><br>
+            <br>
+            <div>
+                <p class="copyright">&copy;<span>2021.All Rights Reserved</span></p>
+            </div>
+        </div>
+        <div class="paragraph">
+            Name:Arpan kumar Tripathy <br>
+            Roll No:1906606 <br>
+            Subject:Web Technology
+        </div>
+        <div class="links">
+            <h2>What is a link?</h2>
+            <p>It is a connection from one web resource to another.A link has two ends,An anchor and direction. The link starts at the “source” anchor and points to the “destination” anchor, which may be any Web resource such as an image, a video clip, a sound bite, a program, an HTML document or an element within an HTML document.</p>
+            <p class="links1">Syntax: &lt;<code>a href="url">Text link&lt;/a&gt;</code></p>
+        </div>
+         <div class="tables">
+             <h2>What is a table?</h2>
+             <p>A table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis.
+                Tables are useful for various tasks such as presenting text information and numerical data.
+                Tables can be used to compare two or more items in tabular form layout.
+                Tables are used to create databases.
+                The HTML tables are created using the &lt;table&gt; tag in which the &lt;tr&gt; tag is used to create table rows and &lt;td&gt; tag is used to create data cells. The elements under &lt;td&gt; are regular and left aligned by default.
+                </p>
+         </div>
+    </header>
+</body>
+
+</html>

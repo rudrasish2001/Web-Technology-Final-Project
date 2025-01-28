@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1906649</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .rudrasish{
+        width:100%;
+        height: 100vh;
+        background-image: url(background.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .right{
+        top: 0px;
+        right: 10px;
+        display: block;
+        width: 50%;
+        margin: 6px auto;
+        display: inline-block;
+        position: absolute;
+        font-size: 30px;
+    }
+    .content{
+        color: #fbfcfd;
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        transform: translateY(-50%);
+        z-index:2;
+        border: 10 px solid black;
+        padding: -10vh 30px;
+        top: 60vh;
+    }
+    .h1{
+        font-size: 50px;
+        margin: 10px 0 30px;
+        line-height: 80px;
+    }
+    .btn
+    {
+    position: relative;
+    display: inline block;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    border: 1.5px solid white;
+    padding: 5px 3px;
+    overflow: hidden;
+    transition: 1s all ease;
+    border-radius: 15px;
+    text-align: left;
+    top: 10px;
+    letter-spacing: 1px;
+    }
+    .btn::before
+    {
+    align-content:flex-end ;
+    background: white;
+    color: white;
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-10%,-10%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    }
+    .btn:nth-child(even):hover
+    {
+	background-color:black;
+	color:white;
+    }
+    .btn:nth-child(odd):hover
+    {
+	background-color:black;
+	color:white;
+    }
+
+    .btn1::before
+    {
+    color:white;
+    width: 100%;
+    height: 0;
+    transform: translate(-50%,-50%) rotate(45deg);
+    }
+   .btn1:hover::before
+   {
+    color: black;
+    height: 380%;
+    border: 1.5px solid black;
+    
+    } 
+   .btn2::before
+    {
+    width: 100%;
+    height: 0;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    
+    }
+    .btn2:hover::before
+    {
+   
+    height: 380%;
+    }
+    
+    .alt{
+    
+    display: inline-block;
+     }
+    .alt li{
+
+    text-align: right;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family:'Courier New', Courier, monospace;
+    }
+    .alt li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 2px;
+    }
+    .alt li a:hover{
+   
+    color: rgb(15, 15, 5);
+    }
+    .alt li a:active{
+
+    color: rgb(197, 38, 17);
+    }
+    .bubbles img{
+        width: 50px;
+        animation: bubble 4s linear infinite;
+    }
+    .bubbles{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: -ms-page;
+        bottom: -10px;
+    }
+    @keyframes bubble{
+        0%{
+            transform: translateY(0);
+            opacity: -1;
+        }
+        50%{
+            
+            opacity: 1;
+        }
+        70%{
+           
+            opacity: 1;
+        }
+        
+        100%{
+            transform: translateY(-80vh);
+            opacity: 0;
+        }
+    }
+    .bu1{
+        color: black;
+        border:1.5px solid white;
+        background: transparent;
+        border-radius: 15px;
+        padding: 15px 15px;
+        left: 12px;
+       
+        text-decoration: none;
+    }
+    .bubbles img:nth-child(1){
+        animation-delay:1s;
+
+    }
+    .bubbles img:nth-child(2){
+        animation-delay:4s;
+        width: 25px;
+
+    }
+    .bubbles img:nth-child(3){
+        animation-delay:3s;
+        width: 20px;
+
+    }
+    .bubbles img:nth-child(4){
+        animation-delay:2s;
+        width: 20px;
+
+    }
+
+    .bubbles img:nth-child(5){
+        animation-delay:5s;
+        width: 15px;
+
+    }
+    .bubbles img:nth-child(6){
+        animation-delay:4s;
+        width: 20px;
+
+    }
+    .bubbles img:nth-child(7){
+        animation-delay:1s;
+        width: 7px;
+
+    }
+    .bubbles img:nth-child(8){
+        animation-delay:6s;
+        width: 30px;
+
+    }
+    .bubbles img:nth-child(9){
+        animation-delay:1s;
+
+    }
+    .bubbles img:nth-child(10){
+        animation-delay:4s;
+        width: 25px;
+
+    }
+    .bubbles img:nth-child(11){
+        animation-delay:3s;
+        width: 20px;
+
+    }
+    .bubbles img:nth-child(12){
+        animation-delay:2s;
+        width: 20px;
+
+    }
+
+    .bubbles img:nth-child(13){
+        animation-delay:5s;
+        width: 15px;
+
+    }
+    .bubbles img:nth-child(14){
+        animation-delay:4s;
+        width: 20px;
+
+    }
+    .bubbles img:nth-child(15){
+        animation-delay:1s;
+        width: 7px;
+
+    }
+    .bubbles img:nth-child(16){
+        animation-delay:6s;
+        width: 30px;
+
+    }
+
+    
+</style>
+<body>
+    <div class="content">
+        <h1 style="font-family: 'Courier New', Courier, monospace;font-size: 50px;">LIST</h1>
+        <br/>
+        <h2 style="font-family: 'Courier New', Courier, monospace;font-size: 25px;"><p>HTML lists are used to present list of information in well formed and semantic way.</p> 
+                                                                   <p>There are three different types of list in HTML and each one has a specific purpose</p> 
+                                                                   <p>and meaning.</p>
+        <br/>
+        <ul style="font-style: 300px">
+            <li style="font-size: 25px;"><strong>Unordered list</strong> </li>
+            <li style="font-size: 25px;"><strong>Ordered list</strong></li>
+            <li style="font-size: 25px;"><strong>Description list</strong></li>
+        </ul>
+        <br/>
+        <br/>
+        <br/>
+        <button><a href="../WT-PROJECT.html" type="button" class="bu1"><b>BACK TO HOME</b></a></button>
+    
+    </div>
+    <div class="rudrasish">
+        <div class="navbar">
+           <div class="right" style="font-family: Arial, Helvetica, sans-serif;">
+                <ul class="alt">
+                    <br/>
+                    
+                    <div class="middle" style="font-size: 30px;">
+                        <a href="list.html" class="btn btn1">LIST</a>
+                        <a href="odl.html" class="btn btn2">ORDERED LIST</a>
+                        <a href="UDLIST.html" class="btn btn2">UNORDERED LIST</a>
+                    </div> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="bubbles">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+        <img src="bubble.png">
+    </div>
+    </body>
+    </html>
+    
+</body>
+</html>
